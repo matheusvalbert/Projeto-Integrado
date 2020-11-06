@@ -44,7 +44,7 @@ def enviarImagem(ftp, client):
 def conexaoSocket(ftp):
     while True:
         client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        client.connect(('18.231.4.103', 81))
+        client.connect(('IP_SERVIDOR', 81))
         while True:
             resp = client.recv(100).decode()
             if(resp == 'f'):
@@ -55,9 +55,9 @@ def conexaoSocket(ftp):
                 break
 
 def main():
-    ftp = FTP_TLS('18.231.4.103')
-    ftp.sendcmd('USER valbert')
-    ftp.sendcmd('PASS 12345678')
+    ftp = FTP_TLS('IP_SERVIDOR')
+    ftp.sendcmd('USER login_ftp')
+    ftp.sendcmd('PASS senha_ftp')
     print(ftp.getwelcome())
     print(ftp.cwd('fotos'))
     ftp.set_pasv(False)
