@@ -14,7 +14,7 @@ Além de criamos uma interface gráfica para melhor visualização dos dados.
 ![alt text](https://github.com/matheusvalbert/Projeto-Integrado/blob/main/Simulacao.PNG)
 # Hardware
 ```
-Criamos um semáforo para simular um ambiente real utilizando um esp32-cam, 3 leds e um semáforo de madeira, onde o mesmo é controlado pela mesma inteligência artificial adaptada para o Hardware.
+Criamos um semáforo para simular um ambiente real utilizando um esp32-cam, 3 leds e um semáforo de madeira, onde o mesmo é controlado pela mesma inteligência artificial adaptada para o Hardware, criamos um esp em python para simular o segundo esp necessário para execução do código do Hardware
 Além de criamos uma interface gráfica para melhor visualização dos dados.
 ```
 ![alt text](https://github.com/matheusvalbert/Projeto-Integrado/blob/main/Hardware.jpg)
