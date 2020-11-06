@@ -18,7 +18,16 @@ Criamos um semáforo para simular um ambiente real utilizando um esp32-cam, 3 le
 Além de criamos uma interface gráfica para melhor visualização dos dados.
 ```
 ![alt text](https://github.com/matheusvalbert/Projeto-Integrado/blob/main/Hardware.jpg)
+
+# Observações
+
+```
+Os arquivos maiores estão linkados para melhor visualização do projeto.
+```
+
 # Links
 Dataset com label: https://drive.google.com/file/d/1Oa1_hfBS-T54KR3o4nh8JvdeAuE2PMCZ/view?usp=sharing
 
 Modelo gerado: https://drive.google.com/file/d/1WnoU7A1qiwvnuUpLCQvgw84202x0Ouqy/view?usp=sharing
+
+Simulação completa: https://drive.google.com/file/d/1H9LGFQCkDO_kLyYd0xMhtptQyVDu8Pd3/view?usp=sharing
