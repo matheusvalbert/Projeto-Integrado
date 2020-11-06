@@ -10,11 +10,11 @@ const char* WIFI_SSID = "NOME_DO_WIFI";
 const char* WIFI_PASS = "SENHA_DO_WIFI";
 
 const uint16_t port = 80;
-const char * host = "18.231.4.103";
+const char * host = "IP_SERVIDOR";
 
-char* ftp_server = "18.231.4.103";
-char* ftp_user = "valbert";
-char* ftp_pass = "12345678";
+char* ftp_server = "IP_SERVIDOR";
+char* ftp_user = "login_ftp";
+char* ftp_pass = "senha_ftp";
 char* ftp_path = "/fotos/";
 
 ESP32_FTPClient ftp (ftp_server,ftp_user,ftp_pass, 5000, 2);
